@@ -37,3 +37,4 @@ This project uses common data analysis libraries (numpy, pandas, scipy) as well 
 ## Roadmap
 
 * *Optional:* A method for evaluating trading execution costs against the cost of remaining delta-neutral.
+* *Optional:* Automated rebalancing on a daily cron.

@@ -19,7 +19,6 @@ from ib_insync import *
 
 def bus_day_delta(future_date):
     today = dt.date.today()
-    # REMOVE future_date=dt.datetime.strptime(future.lastTradeDateOrContractMonth, "%Y%m%d").date()
     future = dt.datetime.strptime(future_date, "%Y%m%d").date()
     return np.busday_count(today, future_date)
 
